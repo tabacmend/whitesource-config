@@ -2,11 +2,12 @@
   "scanSettings": {
     "configMode": "AUTO",
     "configExternalURL": "",
-    "baseBranches": []
+    "baseBranches": [],
+    "enableLicenseViolations": "true"
   },
   "scanSettingsSAST": {
-    "enableScan": false,
-    "scanPullRequests": false,
+    "enableScan": true,
+    "scanPullRequests": true,
     "incrementalScan": true,
     "baseBranches": [],
     "snippetSize": 10
@@ -27,6 +28,9 @@
   "remediateSettings": {
     "workflowRules": {
       "enabled": true
-    }
+    },
+    "extends": [
+      "github>whitesource/merge-confidence:beta"
+    ]
   }
 }
