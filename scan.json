@@ -1,0 +1,9 @@
+{
+  "repositories": [
+    {
+      "fullName": "tabacmend/JS-Demo-2023",
+      "branchName": "marked-major",
+      "scanType": "sast"
+    }
+  ]
+}
