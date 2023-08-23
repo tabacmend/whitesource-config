@@ -17,6 +17,12 @@
     "displayMode": "diff",
     "useMendCheckNames": true
   },
+  "imageSettings": {
+    "imageTracing": {
+      "enableImageTracingPR": true,
+      "addDockerfilePath": true,
+      "addRepositoryCoordinates": true
+   },
   "checkRunSettingsSAST": {
     "checkRunConclusionLevel": "failure",
     "severityThreshold": "high"
